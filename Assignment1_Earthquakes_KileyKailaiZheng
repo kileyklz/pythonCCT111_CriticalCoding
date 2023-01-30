@@ -1,0 +1,13 @@
+# Prompt user to enter a Richter scale measurement
+num_str = input("Please enter a Richter scale value: ")
+
+# converts input number to a float type
+num_float = float(num_str)
+
+print("Richter scale value: ", num_str)
+
+#calculation for energy using user input Richter value
+energy=10**((1.5*num_float)+4.8)
+
+print("Energy: ", energy)
+
